@@ -1,0 +1,44 @@
+{
+    "$schema": "https://aka.ms/winget-settings.schema.json",
+    
+    // For documentation on these settings, see: https://aka.ms/winget-settings,
+     "source": {
+       "autoUpdateIntervalInMinutes": 5
+     },
+    "visual": {
+        "progressBar": "rainbow"
+    },
+	"installBehavior": {
+    	"portablePackageUserRoot": "C:/Users/Public/PortablePackages",
+        "portablePackageMachineRoot": "C:/Program Files/Packages/Portable"
+     },
+    "preferences": {
+		"scope": "system"
+	},
+	"UninstallBehavior": {
+		"purgePortablepackage": true,
+		"defaultInstallRoot": "C:/My/packages/"
+	},
+	"Telemetry": {
+		"disable": true
+	},
+	"logging": {
+		"level": "info"
+	},
+    "network": {
+        "downloader": "do",
+        "doProgressTimeoutInSeconds": 60
+    },
+    "interactivity": {
+        "disable": true
+    },
+    "experimentalFeatures": {
+        "experimentalCmd": true,
+        "experimentalArg": false,
+        "directMSI" : true,
+        "openLogsArgument": true,
+        "dependencies": true
+     }
+    }
+
+
